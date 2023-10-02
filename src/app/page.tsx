@@ -6,7 +6,7 @@ import axios from "axios";
 
 export default function page() {
 
-  const [Images, setImages] = useState([]);
+  const [Images, setImages] = useState<any[]>([]);
 
   const getImages = async () => {
     try{
