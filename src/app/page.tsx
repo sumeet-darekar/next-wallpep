@@ -10,7 +10,7 @@ export default function page() {
 
   const getImages = async () => {
     try{
-  const response = await axios.get("https://api.unsplash.com/search/photos?per_page=100&query=anime&client_id=HP1nqhpQupb7hstBROd_AhPuQoNJsqRAOhAxS_NOySw");
+  const response = await axios.get("https://api.unsplash.com/search/photos?per_page=100&query=sex&client_id=HP1nqhpQupb7hstBROd_AhPuQoNJsqRAOhAxS_NOySw");
   const data = response.data.results;
   setImages(data)
   console.log(Images);
